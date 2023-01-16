@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>assignment2</title>
+    <style>
+    #main{
+        width:300px;
+        height:315px;
+        border:1px slid black;
+        margin:auto;
+    }
+    #box{
+        width: 100px;
+        height: 100px;
+        background:linear-gradient(45deg,lime,magneta);
+        margin-left: 100px;
+
+    }
+    #box2{
+        width: 100px;
+        height: 100px;
+        background:linear-gradient(45deg,blue,red);
+        margin-left: 150px;
+
+    }
+    #box3{
+        width: 100px;
+        height: 100px;
+        background:linear-gradient(45deg,violet,cyan);
+        border:2px solid;
+        border-top-color:crimson;
+        border-right-color:yellow;
+        border-bottom-color:purple;
+        border-left-color:mediumseagreen;
+
+    }
+    #box4{
+        width: 100px;
+        height: 100px;
+        background:linear-gradient(45deg,orange,blue);
+        margin-left: 200px;
+    }
+    #box5{
+        width: 100px;
+        height: 100px;
+        background:linear-gradient(45deg,purple,cyan);
+
+    }
+</style>
+</head>
+<body>
+    <div id="main">
+        <div id="box1">
+            <div id="box4"></div>
+        </div>
+        <div id="box2">
+            <div id="box5"></div>
+        </div>
+        <div id="box3"></div>
+    </div>
+</body>
+</html>
